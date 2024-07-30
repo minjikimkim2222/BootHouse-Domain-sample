@@ -8,7 +8,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "chatLists")
+@Table(name = "chat_lists")
 @Getter @Setter
 public class ChatListEntity {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)

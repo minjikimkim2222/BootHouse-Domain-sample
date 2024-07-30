@@ -23,6 +23,7 @@ public class BootcampEntity {
     private String location;
     private boolean onlineOffline;
     private Double averageRating;
+    private int viewCounts; // 조회수
 
     @OneToMany(mappedBy = "bootcampEntity", cascade = CascadeType.ALL)
     private List<UserBootcampEntity> userBootcampEntities = new ArrayList<>();

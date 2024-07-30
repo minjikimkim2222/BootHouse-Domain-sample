@@ -7,7 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "userReviews")
+@Table(name = "user_reviews")
 @Getter @Setter
 public class UserReviewEntity {
     @Id

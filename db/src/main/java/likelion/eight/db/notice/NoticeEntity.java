@@ -24,4 +24,5 @@ public class NoticeEntity extends BaseEntity {
 
     private String title;
     private String content;
+    private int importance; // 중요도
 }
